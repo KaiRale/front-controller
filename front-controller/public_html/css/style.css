@@ -1,0 +1,32 @@
+img {
+    width: 100%;
+    height: auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+.margin-50{
+    margin-top: 50px;
+}
+
+.price{
+    font-size: 20pt;
+}
+.price span{
+    font-size: 25pt;
+}
+
+.textArticle {
+    margin: 0px auto 0px auto;
+    text-align: center;
+    width: 70%;
+    height: auto;
+    padding-top: 30px;
+
+}
+.text {
+    text-align: justify;
+}

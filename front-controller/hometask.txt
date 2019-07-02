@@ -1,0 +1,12 @@
+class PictureController
+    private $pictureRepository;
+
+function showAction($id){
+    $picture = $this->pictureRepository->getById($id);
+}
+
+++
+дублирование кода renderPage()
+вынести в отдельный класс Controller,
+все остальные классы контроллеров будут
+наследовать (extends) данный класс
